@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:id="@+id/layout" android:orientation="horizontal">
+
+    <View
+            android:layout_width="4dp"
+            android:layout_height="match_parent"
+            android:id="@+id/color_indicator"
+            android:background="@color/colorPrimary"
+            android:layout_marginBottom="2dp"
+            android:layout_marginTop="2dp"
+    />
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:id="@+id/product_name"
+            tools:text="ProductName"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="12dp"/>
+
+
+</LinearLayout>

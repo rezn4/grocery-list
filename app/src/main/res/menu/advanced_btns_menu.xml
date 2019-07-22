@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+    android:title="Удалить все"
+    android:id="@+id/removeAllProducts"/>
+
+    <item
+    android:title="Удалить выбранные продукты"
+    android:id="@+id/removeCheckedProducts"/>
+
+    <item
+    android:title="Отметить все продукты"
+    android:id="@+id/checkAllProducts"/>
+
+    <item
+    android:title="Снять отметки со всех продуктов"
+    android:id="@+id/uncheckAllProducts"/>
+
+</menu>
